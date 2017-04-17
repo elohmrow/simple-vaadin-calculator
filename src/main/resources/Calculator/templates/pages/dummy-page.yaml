@@ -1,0 +1,10 @@
+templateScript: /Calculator/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: Calculator:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: Calculator:components/dummy-component
